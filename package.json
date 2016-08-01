@@ -1,5 +1,5 @@
 {
-  "name": "Grunt project",
+  "name": "static-site-project",
   "version": "0.1.0",
   "devDependencies": {
     "grunt": "^1.0.1",
