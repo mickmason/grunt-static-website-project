@@ -1,0 +1,13 @@
+@import "mixins.scss";
+@import "functions.scss";
+$max-cols: 12;
+@mixin row {
+    @include clearfix;
+    margin:0 auto;
+}
+@mixin cols($num-cols) {
+    float: left;
+    padding: 0 torem(15);
+    width: $num-cols / $max-cols * 100%;
+
+}

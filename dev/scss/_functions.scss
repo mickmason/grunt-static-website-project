@@ -1,0 +1,7 @@
+
+@function strip-unit($num) {
+  @return $num / ($num * 0 + 1);
+}
+@function torem($px) {
+    @return (strip-unit($px) / strip-unit($baseFontSize))+rem;
+} 
