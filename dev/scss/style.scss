@@ -4,3 +4,6 @@
 @import "grid";
 
 $baseFontSize: 16px;
+html {
+    font-size: $baseFontSize;  
+}
